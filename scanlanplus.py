@@ -13,5 +13,5 @@ new_ip = ".".join(ip)
 final= new_ip + ".1/24"
 
 #scan phase
-os.system("nmap -T4 -p- -A "+ final)
+os.system("nmap -T4 -p- -A "+ final) #scans for every ports of devices in the network and gives all possible info
 s.close()
